@@ -13,10 +13,10 @@ public class App {
             
             InetAddress address[] = InetAddress.getAllByName(name);
             
-            System.out.println( "Name:      " + name);
+            System.out.println("Name:      " + name);
             
             for(InetAddress addr: address) {
-                 System.out.println( "Address:   " + addr.getHostAddress());
+                 System.out.println("Address:   " + addr.getHostAddress());
             }
         } catch (UnknownHostException e) {
             System.out.println(e.getMessage());
